@@ -18,6 +18,7 @@ public class Program {
 
         BananaPacket packet = new BananaPacket(basket.getAllBananas());
         packet.showInfo();
+        packet.showInfo();
 
     }
 
