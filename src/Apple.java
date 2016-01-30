@@ -1,5 +1,5 @@
 
-public class Apple {
+public class Apple extends Fruit {
 
     public Apple() {
         fruitType = FruitType.APPLE;
