@@ -1,9 +1,5 @@
-package test;
-
 import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
 
 /**
  * Created by student229a on 30.01.2016.
