@@ -7,7 +7,7 @@ public class Apple extends Fruit {
 
     @Override
     public String toString() {
-        return "Apple{}";
+        return "Apple-juce";
     }
 
     public void doNothing() {
@@ -16,6 +16,10 @@ public class Apple extends Fruit {
 
     public FruitType getFruitType() {
         return fruitType;
+    }
+
+    public void method() {
+        System.out.println("method");
     }
 
 }
