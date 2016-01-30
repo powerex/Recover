@@ -14,4 +14,8 @@ public class Apple extends Fruit {
 
     }
 
+    public FruitType getFruitType() {
+        return fruitType;
+    }
+
 }

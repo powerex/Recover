@@ -22,4 +22,8 @@ public class Banana extends Fruit {
         this.color = color;
         this.weight = weight;
     }
+
+    public FruitType getFruitType() {
+        return fruitType;
+    }
 }
