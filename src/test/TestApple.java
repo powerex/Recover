@@ -1,3 +1,6 @@
+package test;
+
+import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -10,7 +13,7 @@ public class TestApple {
     @Test
     public void TestTypeFruit() {
         Apple apple = new Apple();
-        assertEquals(FruitType.APPLE, apple.getFruitType());
+        Assert.assertEquals(FruitType.APPLE, apple.getFruitType());
     }
 
 }
