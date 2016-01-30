@@ -2,6 +2,7 @@
 public class Apple {
 
     public Apple() {
+        fruitType = FruitType.APPLE;
     }
 
     @Override
