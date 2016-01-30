@@ -16,4 +16,10 @@ public class Banana extends Fruit {
     public Banana() {
         fruitType = FruitType.BANANA;
     }
+
+    public Banana(FruitType fruitType, Color color, int weight) {
+        super(fruitType);
+        this.color = color;
+        this.weight = weight;
+    }
 }
